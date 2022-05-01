@@ -1,7 +1,6 @@
 html{
  background-color: hsl(217, 54%, 11%);
- font-family: 'Outfit',
- sans-serif;
+ font-family: 'Outfit', sans-serif;
  font-size: 18px;
 }
 
@@ -19,12 +18,35 @@ body{
  height: 600px;
  background-color: hsl(216, 50%, 16%);
  border-radius: 15px;
+ z-index: 1;
 }
 
 img{
  width: 300px;
- margin: 25px;
  border-radius: 10px;
+ z-index: 4;
+}
+
+.imag{
+width: 300px;
+height: 300px;
+margin: 25px;
+border-radius: 10px;
+background-color: hsl(178, 100%, 50%);
+text-align: center;
+display: flex;
+flex-direction: column;
+z-index: 2;
+}
+
+img:hover{
+ cursor: pointer;
+ opacity: 0.5;
+}
+
+.eye {
+ margin-top: -145px;
+ z-index: 3;
 }
 
 p{
@@ -37,6 +59,11 @@ p{
  margin-top: 0;
  color: white;
  font-weight: 600;
+}
+
+.t1:hover{
+ color: hsl(178, 100%, 50%);
+ cursor: pointer;
 }
 
 .t2{
@@ -62,6 +89,7 @@ p{
 }
 
 .avatar {
+ margin: 25px;
  margin-top: 15px;
  width: 50px;
  background-color: hsl(0, 0%, 100%);
@@ -80,6 +108,11 @@ span {
 
 strong {
  color: hsl(0, 0%, 100%);
+}
+
+strong:hover{
+ color: hsl(178, 100%, 50%);
+ cursor: pointer;
 }
 
 .attribution {
