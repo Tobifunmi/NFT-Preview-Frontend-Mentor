@@ -27,12 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./Screenshot.png)
 
 ### Links
 
 - Solution URL: [Netlify](https://tobifunmi-nft-preview.netlify.app/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
